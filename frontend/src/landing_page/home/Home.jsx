@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Hero from './HomeHero';
 import Awards from './Awards';
 import Stats from './Stats';
@@ -9,7 +9,13 @@ import OpenAccount from '../OpenAccount';
 import Footer from '../footer';
 import Navbar from '../Navbar';
 
+
 function HomePage() {
+
+    useEffect(() => {
+      document.title = 'Welcome-Tradeora';
+    }, []);
+
     return ( 
         <>
             <Navbar />

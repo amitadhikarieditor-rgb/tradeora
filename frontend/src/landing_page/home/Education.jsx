@@ -1,6 +1,8 @@
 import React from 'react';
+import { useEffect } from 'react';
 
 function Education() {
+
     return ( 
        <div className='container'>
         <div className='row mb-5'>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hero() {
     return (  
-        <div className='container text-center p-5'>
+        <div className='container text-center p-5 mt-5'>
             <div className='row '>
                 <img src='/media/homeHero.png'
                 alt="Tradeora homepage hero" className='mb-5'/>
