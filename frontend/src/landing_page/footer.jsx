@@ -6,7 +6,7 @@ import {
   FaLinkedinIn,
   FaTelegram,
 } from "react-icons/fa";
-
+import '../Styles/footer.css';
 function Footer() {
   return (
     <div className="container border-top" style={{ width: "100%" }}>
@@ -17,25 +17,25 @@ function Footer() {
           <p>© 2010 - 2024, Not Zerodha Broking Ltd.</p>
           <br />
           All rights reserved.
-          <div className="d-flex gap-4 mt-2 align-items-center fs-3">
-            <a href="/" className="text-secondary">
+          <div className=" footer-social d-flex gap-4 mt-2 align-items-center fs-3">
+            <a href="/" className="text-danger">
               <FaTwitter />
             </a>
-            <a href="/" className="text-secondary">
+            <a href="/" className="text-danger">
               <FaFacebookSquare />
             </a>
-            <a href="/" className="text-secondary">
+            <a href="/" className="text-danger">
               <FaInstagram />
             </a>
-            <a href="/" className="text-secondary">
+            <a href="/" className="text-danger">
               <FaLinkedinIn />
             </a>
-            <a href="/" className="text-secondary">
+            <a href="/" className="text-danger">
               <FaTelegram />
             </a>
           </div>
         </div>
-        <div className="col mt-5">
+        <div className="col mt-5 footer-link">
           <p>Company</p>
           <a href="/" >About</a>
           <br />
@@ -60,7 +60,7 @@ function Footer() {
           <br />
           <a href="/" >Zerodha cares(CSR)</a>
         </div>
-        <div className="col mt-5">
+        <div className="col mt-5 footer-link">
           <p>Support</p>
           <a href="/" >Contact</a>
           <br />
@@ -76,7 +76,7 @@ function Footer() {
           <br />
           <a href="/" >Downloads & resources</a>
         </div>
-        <div className="col mt-5">
+        <div className="col mt-5 footer-link">
           <p>Account</p>
           <a href="/" >Open an account</a>
           <br />
@@ -88,7 +88,7 @@ function Footer() {
         </div>
       </div>
       <div className="mt-5 mb-5">
-        <p>
+        <p><small>
           © 2010–2026, Tradeora. All rights reserved. Tradeora is a financial
           technology platform designed to provide users with access to financial
           market information, investment-related tools, educational resources,
@@ -117,6 +117,7 @@ function Footer() {
           technical interruptions, or inaccuracies in the content provided. By
           accessing or using Tradeora, you acknowledge that you have read and
           understood these terms and agree to use the platform responsibly.
+          </small>
         </p>
       </div>
     </div>
