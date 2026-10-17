@@ -8,7 +8,7 @@ function Navbar() {
           <img
             src="/media/logo.svg"
             alt="Logo"
-            width="350"
+            width="300"
           />
         </a>
 
@@ -27,7 +27,7 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarMenu">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="/signup">Signup</a>
+              <a className="nav-link active" href="/signup">Signup</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/about">About</a>
