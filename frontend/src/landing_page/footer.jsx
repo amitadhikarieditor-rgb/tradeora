@@ -12,79 +12,79 @@ function Footer() {
     <div className="container border-top" style={{ width: "100%" }}>
       <div className="row">
         <div className="col">
-          <img src="/media/logo.svg" />
+          <img src="/media/logo.svg"
+          alt='logo' />
           <p>© 2010 - 2024, Not Zerodha Broking Ltd.</p>
           <br />
           All rights reserved.
           <div className="d-flex gap-4 mt-2 align-items-center fs-3">
-            <a href="#" className="text-secondary">
+            <a href="/" className="text-secondary">
               <FaTwitter />
             </a>
-            <a href="#" className="text-secondary">
+            <a href="/" className="text-secondary">
               <FaFacebookSquare />
             </a>
-            <a href="#" className="text-secondary">
+            <a href="/" className="text-secondary">
               <FaInstagram />
             </a>
-            <a href="#" className="text-secondary">
+            <a href="/" className="text-secondary">
               <FaLinkedinIn />
             </a>
-            <a href="#" className="text-secondary">
+            <a href="/" className="text-secondary">
               <FaTelegram />
             </a>
           </div>
         </div>
         <div className="col mt-5">
           <p>Company</p>
-          <a>About</a>
+          <a href="/" >About</a>
           <br />
           <br />
-          <a>Product</a>
+          <a href="/" >Product</a>
           <br />
           <br />
-          <a>Pricing</a>
+          <a href="/" >Pricing</a>
           <br />
           <br />
-          <a>Refferal programme</a>
+          <a href="/" >Refferal programme</a>
           <br />
           <br />
-          <a>careers</a>
+          <a href="/" >careers</a>
           <br />
           <br />
-          <a>Zerodha.tech</a>
+          <a href="/" >Zerodha.tech</a>
           <br />
           <br />
-          <a>press & media</a>
+          <a href="/" >press & media</a>
           <br />
           <br />
-          <a>Zerodha cares(CSR)</a>
-          <a></a>
+          <a href="/" >Zerodha cares(CSR)</a>
         </div>
         <div className="col mt-5">
           <p>Support</p>
-          <a>Contact</a>
+          <a href="/" >Contact</a>
           <br />
           <br />
-          <a>Support portal</a>
+          <a href="/" >Support portal</a>
           <br />
           <br />
-          <a>Z-Connect blog</a>
+          <a href="/" >Z-Connect blog</a>
           <br />
           <br />
-          <a>List of charges</a>
+          <a href="/" >List of charges</a>
           <br />
           <br />
-          <a>Downloads & resources</a>
+          <a href="/" >Downloads & resources</a>
         </div>
         <div className="col mt-5">
           <p>Account</p>
-          <a>Open an account</a>
+          <a href="/" >Open an account</a>
           <br />
           <br />
-          <a>Fund transfer</a>
+          <a href="/" >Fund transfer</a>
           <br />
           <br />
-          <a>60 day challenge</a>
+          <a href="/" >60 day challenge</a>
         </div>
       </div>
       <div className="mt-5 mb-5">
