@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Sginup() {
+function Product() {
     return ( 
         <h1>
-            this is a Sginup Page
+            product
         </h1>
      );
 }
 
-export default Sginup;
+export default Product;
