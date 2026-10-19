@@ -81,22 +81,24 @@ function Hero() {
 
       </div>
 
-      <div className=" container text-center">
+      <div className="container text-center">
         <h1>people</h1>
       </div>
       <div className="container p-5">
         <div className="row">
-          <div className="col-6">
-            <img className="ms-4"
-              style={{ borderRadius: "50%" }}
+                  <div className="col-1 "></div>
+          <div className="mt-3 col-4 ">
+            <img className="ms-5"
+              style={{ borderRadius: "50%", width:'67%' }}
               src="/media/nithinKamath.jpg"
               alt="founder's pic"
-            /> 
-            <br/> <br/>
-            <p className=" me-5 text-center">nithinKamath</p>
+            />
+            <br/><br/>
+             <h4 className="me-5 text-center">nithinKamath</h4>
+             <p className="me-5 text-center">Founde, CEO</p>
           </div>
           
-          <div className="col-4">
+          <div className="col-6">
            
             <p className="fs-5">
               I don't personally know this gentleman, but I came across his
@@ -111,9 +113,6 @@ function Hero() {
               my website more meaningful by featuring people whose photographs
               caught my attention.</p>
             </p>
-          </div>
-          <div className="col-2">
-
           </div>
         </div>
       </div>
