@@ -14,7 +14,7 @@ function Footer() {
         <div className="col">
           <img src="/media/logo.svg"
           alt='logo' />
-          <p>© 2010 - 2024, Not Zerodha Broking Ltd.</p>
+          <p>© 2010 - 2024, Not Tradeora Broking Ltd.</p>
           <br />
           All rights reserved.
           <div className=" footer-social d-flex gap-4 mt-2 align-items-center fs-3">
