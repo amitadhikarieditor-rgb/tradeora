@@ -89,11 +89,8 @@ function Footer() {
       </div>
       <div className="mt-5 mb-5">
         <p><small>
-          © 2010–2026, Tradeora. <br/>
-          <br/>
-          All rights reserved. 
-          <br/>
-          <br/>Tradeora is a financial
+          © 2010–2026, Tradeora. 
+          All rights reserved. Tradeora is a financial
           technology platform designed to provide users with access to financial
           market information, investment-related tools, educational resources,
           and digital services that support informed financial decision-making.

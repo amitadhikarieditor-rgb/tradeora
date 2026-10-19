@@ -3,7 +3,7 @@ import '../Styles/navbar.css';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top bg-white border-bottom">
+    <nav className="navbar navbar-expand-lg sticky-top bg-white border-bottom">
       <div className="container-fluid mx-5">
         <a className="navbar-brand p-0" href="/">
           <img
