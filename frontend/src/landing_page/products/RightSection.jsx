@@ -1,11 +1,30 @@
-import React from 'react';
+import React from "react";
 
 function RightSection() {
-    return ( 
-        <h1>
-            RightSection
-        </h1>
-     );
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col-1"></div>
+        <div className="col-4" style={{ marginTop: "15%" }}>
+          <h1>Console</h1>
+          <p>
+            My Project for displaying my core knowledge of MERN took the
+            inspiration of a official web site and cloned it with my own spices
+            better to keep practicing then keep learning is my admiration for
+            perfection
+          </p>
+          <a href="https://github.com/amitadhikarieditor-rgb/tradeora">
+            tradeora code base
+          </a>
+        </div>
+        <div className="col-1"></div>
+
+        <div className="col-1">
+          <img src="./media/console.png" />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default RightSection;

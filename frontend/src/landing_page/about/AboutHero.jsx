@@ -94,8 +94,8 @@ function Hero() {
               alt="founder's pic"
             />
             <br/><br/>
-             <h4 className="me-5 text-center">nithinKamath</h4>
-             <p className="me-5 text-center">Founde, CEO</p>
+             <h4 className="me-5 text-center"><strong>Someone from the internet</strong></h4>
+             <p className="me-5 text-center">Founder, CEO</p>
           </div>
           
           <div className="col-6">
