@@ -7,14 +7,16 @@ function Hero() {
         <>
         <div className="container text-center mt-5">
             <h1>
-                Technology
+                <strong>
+                     Technology
+                </strong>
             </h1>
 
-            <p>
+            <p className='text-muted'>
                 Sleek, modern and intuitive trading platform
             </p>
 
-            <p>
+            <p className='text-muted'>
                 Check out our{" "}
                 <a href="#">
                     investment offering <ArrowRight size={18} />
