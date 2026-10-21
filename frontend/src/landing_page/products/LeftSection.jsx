@@ -10,7 +10,7 @@ function LeftSection() {
                 <div className='col-4 mt-5'>
                     <img src='./media/kite.png'/>
                 </div>
-                  <div className='col-2'></div>
+                  <div className='col-3'></div>
 
                  <div className='col-4 mt-5 text-start'>
                     <h1>Byte</h1>
