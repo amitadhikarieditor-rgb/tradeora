@@ -1,12 +1,20 @@
 import React from "react";
 
-function RightSection() {
+function RightSection({
+  imageUrl,
+  productName,
+  productDescription,
+  tryDemo,
+  learnMore,
+  googlePlay,
+  appStore,
+}) {
   return (
     <div className="container">
       <div className="row">
         <div className="col-1"></div>
         <div className="col-4" style={{ marginTop: "15%" }}>
-          <h1>Console</h1>
+          <h1> {productName} </h1>
           <p>
             My Project for displaying my core knowledge of MERN took the
             inspiration of a official web site and cloned it with my own spices
@@ -14,7 +22,7 @@ function RightSection() {
             perfection
           </p>
           <a href="https://github.com/amitadhikarieditor-rgb/tradeora">
-            tradeora code base
+            {tryDemo}
           </a>
         </div>
         <div className="col-1"></div>

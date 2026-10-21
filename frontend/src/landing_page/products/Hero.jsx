@@ -1,33 +1,28 @@
-import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import React from "react";
+import { ArrowRight } from "lucide-react";
 // import leftSection from './LeftSection'
 
 function Hero() {
-    return ( 
-        <>
-        <div className="container text-center mt-5">
-            <h1>
-                <strong>
-                     Technology
-                </strong>
-            </h1>
+  return (
+    <>
+     <br/>
+      <div className="container text-center mt-5 mb-5 p-5">
+        <h1>
+          Tradeora Products
+        </h1>
+          <h5 className="text-muted mt-3">Sleek, modern, and intuitive trading platforms</h5>
 
-            <p className='text-muted'>
-                Sleek, modern and intuitive trading platform
-            </p>
-
-            <p className='text-muted'>
-                Check out our{" "}
-                <a href="#">
-                    investment offering <ArrowRight size={18} />
-                </a>
-            </p>
-        </div>
-
-        </>
-
-    );
+        <p className="text-muted mt-3 mb-5">
+          Check out our{" "}
+          <a href="#">
+            investment offering <ArrowRight size={18} />
+          </a>
+        </p>
+ <br/><br/><br/> <br/>
+        <hr />
+      </div>
+    </>
+  );
 }
-
 
 export default Hero;
