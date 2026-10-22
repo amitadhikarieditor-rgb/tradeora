@@ -28,7 +28,7 @@ function RightSection({
         <div className="col-1"></div>
 
         <div className="col-1">
-          <img src="./media/console.png" />
+          <img className="mt-5 p-5" src={imageUrl} />
         </div>
       </div>
     </div>
