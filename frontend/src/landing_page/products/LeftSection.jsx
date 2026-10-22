@@ -11,7 +11,7 @@ function LeftSection({
   appStore,
 }) {
   return (
-    <div className="container mb-5 mt-5">
+    <div className="container mb-5 mt-5 d-flex flex-column flex-md-row flex-wrap gap-3">
       <div className="row">
         <div className="col-1"></div>
         <div className="col-4 mt-5">

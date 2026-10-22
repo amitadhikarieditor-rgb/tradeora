@@ -1,0 +1,12 @@
+.signup-page{
+    text-align: center;
+    max-width: 100%;
+}
+
+.signup-card{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
