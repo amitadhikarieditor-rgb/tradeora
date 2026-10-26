@@ -4,9 +4,9 @@ function Hero() {
   return (
     <div className="container">
       <div className="row">
-        <div className=" p-5 text-muted text-center mt-5 mb-5 p-5 fs-5">
-          <h4>Charges</h4>
-          <p>List of all charges and taxes</p>
+        <div className=" p-5 text-muted text-center mb-1 p-5 fs-5">
+          <h1>Charges</h1>
+          <h5>List of all charges and taxes</h5>
         </div>
         <div className="me-5 ms-5 col-4 text-center w-25">
           <img src="./media/pricing0.svg" 
@@ -51,7 +51,9 @@ function Hero() {
         
         </div>
       </div>
+      <hr/>
     </div>
+  
   );
 }
 

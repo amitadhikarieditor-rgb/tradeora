@@ -156,6 +156,7 @@ function RaiseTicket() {
         </div>
 
 {/* second part */}
+
         <div className="col-1 "></div>
       </div>
       <div className="container">

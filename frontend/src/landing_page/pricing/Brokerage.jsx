@@ -169,9 +169,7 @@ function Brokerage() {
             </ul>
           </section>
 
-          <hr className="my-4" />
-
-          <p className="text-muted small"><small>
+          <p className="text-muted"><small>
             Disclaimer: The charges above are based on supplied reference
             material and may not reflect current rates. Verify applicable
             charges before publishing.
