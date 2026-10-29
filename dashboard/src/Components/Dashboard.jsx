@@ -1,72 +1,41 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
-import axios from "axios";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import "../data/index.css";
 
-import GeneralContext from "./GeneralContext";
+import Funds from "./Funds";
+import Holdings from "./Holdings";
+import Menu from "./Menu";
+import Orders from "./Orders";
+import Positions from "./Positions";
+import Summary from "./Summary";
+import WatchList from "./WatchList";
+import { GeneralContextProvider } from "./GeneralContext";
 
-import "./BuyActionWindow.css";
-
-const BuyActionWindow = ({ uid }) => {
-  const [stockQuantity, setStockQuantity] = useState(1);
-  const [stockPrice, setStockPrice] = useState(0.0);
-
-  const handleBuyClick = () => {
-    axios.post("http://localhost:3002/newOrder", {
-      name: uid,
-      qty: stockQuantity,
-      price: stockPrice,
-      mode: "BUY",
-    });
-
-    GeneralContext.closeBuyWindow();
-  };
-
-  const handleCancelClick = () => {
-    GeneralContext.closeBuyWindow();
-  };
-
+const Dashboard = () => {
   return (
-    <div className="container" id="buy-window" draggable="true">
-      <div className="regular-order">
-        <div className="inputs">
-          <fieldset>
-            <legend>Qty.</legend>
-            <input
-              type="number"
-              name="qty"
-              id="qty"
-              onChange={(e) => setStockQuantity(e.target.value)}
-              value={stockQuantity}
-            />
-          </fieldset>
-          <fieldset>
-            <legend>Price</legend>
-            <input
-              type="number"
-              name="price"
-              id="price"
-              step="0.05"
-              onChange={(e) => setStockPrice(e.target.value)}
-              value={stockPrice}
-            />
-          </fieldset>
-        </div>
-      </div>
+    <GeneralContextProvider>
+      <div className="dashboard-container">
+        <aside className="watchlist-panel">
+          <WatchList />
+        </aside>
 
-      <div className="buttons">
-        <span>Margin required ₹140.65</span>
-        <div>
-          <Link className="btn btn-blue" onClick={handleBuyClick}>
-            Buy
-          </Link>
-          <Link to="" className="btn btn-grey" onClick={handleCancelClick}>
-            Cancel
-          </Link>
-        </div>
+        <main className="main-panel">
+          <Menu />
+
+          <div className="content">
+            <Routes>
+              <Route path="/" element={<Summary />} />
+              <Route path="/orders" element={<Orders />} />
+              <Route path="/holdings" element={<Holdings />} />
+              <Route path="/positions" element={<Positions />} />
+              <Route path="/funds" element={<Funds />} />
+            </Routes>
+          </div>
+        </main>
       </div>
-    </div>
+    </GeneralContextProvider>
   );
 };
 
-export default BuyActionWindow;
+export default Dashboard;
