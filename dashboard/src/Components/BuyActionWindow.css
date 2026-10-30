@@ -2,7 +2,7 @@
     --radius: 4px;
     width: 40%;
     height: 63%;
-    background: rgb(245, 245, 245);
+    background: rgb(219, 81, 81);
     position: absolute;
     bottom: 0;
     left: 35%;
@@ -10,7 +10,7 @@
     box-sizing: border-box;
     z-index: 100;
     border-radius: var(--radius);
-    border: 1px solid rgb(238, 238, 238);
+    border: 1px solid rgb(253, 88, 88);
   }
   
   .dragging {
